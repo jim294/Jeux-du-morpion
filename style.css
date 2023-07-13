@@ -10,4 +10,10 @@ td {
   h1 {
     text-align: center;
   }
+
+  h2 {
+    padding-top: 20px;
+    color: red;
+    font-size: xx-large;
+  }
   
