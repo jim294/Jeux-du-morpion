@@ -70,3 +70,11 @@ function handleCellClick(event) {
 for (var i = 0; i < cells.length; i++) {
   cells[i].addEventListener("click", handleCellClick);
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  const restartButton = document.querySelector('button');
+  restartButton.addEventListener('click', function() {
+    location.reload(); // Cette ligne recharge la page
+  });
+});
+

@@ -57,6 +57,20 @@ td {
     text-align: center;
   }
 
+  button {
+    margin-top: 50px;
+    font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  color: rgb(190, 73, 73);
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0);
+    background-color: #49CAE7;
+  }
+
 
   @media (max-width: 1100px) {
     td {
