@@ -1,3 +1,17 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url('./images/backMorpion.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 td {
     width: 100px;
     height: 100px;
@@ -5,15 +19,27 @@ td {
     text-align: center;
     font-size: 48px;
     cursor: pointer;
+    color: brown;
   }
   
-  h1 {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .choice {
     text-align: center;
   }
 
-  h2 {
+  h3 {
     padding-top: 20px;
     color: red;
     font-size: xx-large;
+  }
+
+  @media (max-width: 600px){
+    header {
+      height: 170px;
+    }
   }
   
