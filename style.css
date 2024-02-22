@@ -1,9 +1,11 @@
 body {
   height: 100vh;
   justify-content: center;
+  background-color: #49CAE7;
   background-image: url('./images/backMorpion.jpg');
   background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 main {
@@ -37,19 +39,28 @@ td {
     font-size: xx-large;
   }
 
-  @media (max-width: 600px){
+  @media (max-width: 600px) {
     header {
-      height: 110px;
-      justify-content: flex-start;
+      height: 180px;
       margin-left: 40px;
     }
-    main  {
-      align-items: flex-start;
-      margin-left: 40px;
+    body {
+      background-position: center 200px;
     }
     td {
       width: 60px;
     height: 60px;
+    }
+
+  }
+
+  @media (max-width: 500px){
+    body {
+      height: 100%;
+    }
+    td {
+      width: 40px;
+      height: 40px;
     }
   }
   
